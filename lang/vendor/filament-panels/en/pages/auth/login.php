@@ -4,17 +4,17 @@ return [
 
     'title' => 'Login',
 
-    'heading' => 'Sign in',
+    'heading' => 'Masuk',
 
     'actions' => [
 
         'register' => [
             'before' => 'or',
-            'label' => 'sign up for an account',
+            'label' => 'Daftar Akun',
         ],
 
         'request_password_reset' => [
-            'label' => 'Forgot password?',
+            'label' => 'Lupa Password?',
         ],
 
     ],
@@ -22,7 +22,7 @@ return [
     'form' => [
 
         'email' => [
-            'label' => 'Email address',
+            'label' => 'Email',
         ],
 
         'password' => [
@@ -30,13 +30,13 @@ return [
         ],
 
         'remember' => [
-            'label' => 'Remember me',
+            'label' => 'Ingat Saya',
         ],
 
         'actions' => [
 
             'authenticate' => [
-                'label' => 'Sign in',
+                'label' => 'Masuk',
             ],
 
         ],
@@ -45,15 +45,15 @@ return [
 
     'messages' => [
 
-        'failed' => 'These credentials do not match our records.',
+        'failed' => 'Username atau Password Salah.',
 
     ],
 
     'notifications' => [
 
         'throttled' => [
-            'title' => 'Too many login attempts',
-            'body' => 'Please try again in :seconds seconds.',
+            'title' => 'Terlalu banyak upaya login',
+            'body' => 'Silahkan coba beberapa saat lagi.',
         ],
 
     ],
